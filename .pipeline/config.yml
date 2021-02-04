@@ -54,9 +54,9 @@ stages:
     auditedAdvisories:
       - 1213
 	  
-  productionDeployment:
-    cfTargets:
-      - org: 'cf-dts-integration-de'
-        space: 'dev'
-        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
-        credentialsId: 'CF_USER'
+#  productionDeployment:
+#    cfTargets:
+#      - org: 'cf-dts-integration-de'
+#        space: 'dev'
+#        apiEndpoint: 'https://api.cf.eu10.hana.ondemand.com'
+#        credentialsId: 'CF_USER'
